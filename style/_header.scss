@@ -8,14 +8,14 @@
 .header__button {
   border-radius: 31.85px;
   background-color: $translucent-white;
-  @include fonts (14px, 500, 21px, #fff)
+  @include fonts(14px, 500, 21px, #fff);
 }
 
 .header__button-left {
   padding: 4px;
   padding-left: 30px;
   padding-right: 12px;
-  background-image: url('../img/крестик.svg');
+  background-image: url('../img/the-cross.svg');
   background-repeat: no-repeat;
   background-position: top 5px left 6px;
   background-size: 20px;
@@ -29,7 +29,7 @@
   padding-left: 46px;
   height: 29px;
   padding-bottom: 17.4px;
-    background-image: url('../img/галочка-вниз.svg');
+  background-image: url('../img/checkmark-down.svg');
   background-repeat: no-repeat;
   background-position: top 5px left 6px;
   background-size: 20px;
@@ -38,4 +38,3 @@
 .header__span {
   font-size: 24px;
 }
-

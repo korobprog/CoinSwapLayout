@@ -5,7 +5,7 @@
 
 .bid__h2 {
   margin-bottom: 12px;
-  @include fonts (20px, 600, 26px, $dirty-white);
+  @include fonts(20px, 600, 26px, $dirty-white);
 }
 
 .bid__list {
@@ -46,7 +46,6 @@
   background-color: $dirty-grey;
   top: 79px;
   height: 1px;
-
 }
 
 .bid__text {
@@ -54,14 +53,14 @@
   justify-content: space-between;
   width: 64%;
   margin-bottom: 5px;
-  @include fonts (16px, 500, 22px, $dirty-white);
+  @include fonts(16px, 500, 22px, $dirty-white);
 }
 
 .bid__span-text {
   border-radius: 5px;
   padding: 1px 4px;
   border: 1px solid $dirty-white;
-  @include fonts (12px, 400, 18px, $dirty-white);
+  @include fonts(12px, 400, 18px, $dirty-white);
 }
 
 .bid__span-ellips {
@@ -70,7 +69,7 @@
   height: 10px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../img/точка.svg');
+  background-image: url('../img/point.svg');
 }
 
 .bid__span-price {
@@ -84,24 +83,24 @@
 
 .bid__text-price {
   margin-bottom: 32px;
-  @include fonts (14px, 400, 20px, $grey);
+  @include fonts(14px, 400, 20px, $grey);
 }
 
 .bid__span-text-number {
   display: flex;
   justify-content: space-between;
   margin-bottom: 4px;
-  @include fonts (14px, 400, 20px, $grey);
+  @include fonts(14px, 400, 20px, $grey);
 }
 
 .bid__span-number {
   padding-right: 25px;
-  @include fonts (14px, 400, 20px, $dirty-white);
-  background-image: url('../img/копировка.svg');
+  @include fonts(14px, 400, 20px, $dirty-white);
+  background-image: url('../img/copying.svg');
   background-repeat: no-repeat;
   background-position: top 1px right 2px;
 }
 
 .bid__span-date {
-  @include fonts (14px, 400, 20px, $dirty-white);
+  @include fonts(14px, 400, 20px, $dirty-white);
 }
