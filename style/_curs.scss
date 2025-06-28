@@ -1,0 +1,45 @@
+.curs__block {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.curs__h2 {
+  margin-bottom: 13px;
+  @include fonts (20px, 600, 26px, $dirty-white);
+}
+
+.curs__list {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 16px 16px 17px 16px;
+  background-color: $dark-color;
+
+}
+
+.curs_h3 {
+  margin-bottom: 3px;
+  @include fonts (14px, 400, 20px, $grey);
+}
+
+.curs__text {
+  @include fonts (16px, 500, 22px, $dirty-white);
+}
+
+.curs__span {
+  background-image: url('../img/₽.svg');
+  background-repeat: no-repeat;
+  background-position: top 3px right 0;
+  padding-right: 16px;
+  @include fonts (16px, 500, 22px, $dirty-white);
+}
+
+.curs__list-item {
+  display: flex;
+  width: 42%;
+  justify-content: space-between;
+}
+
+.curs__item {
+  width: 58px;
+}

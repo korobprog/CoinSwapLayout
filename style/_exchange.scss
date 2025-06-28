@@ -1,0 +1,50 @@
+
+.exchange__block {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.exchange__h2 {
+  margin-bottom: 8px;
+  text-align: center;
+  @include fonts (24px, 700, 30px, $dirty-white)
+}
+
+.exchange__text {
+  text-align: center;
+  @include fonts (16px, 400, 22px, $grey)
+}
+
+.exchange__text-block {
+  padding: 0 16px;
+  margin-bottom: 24px;
+}
+
+.exchange__button {
+  width: 49%;
+  padding-top: 44px;
+  padding-bottom: 12px;
+  border-radius: 12px;
+  background-color: $dark-color;
+  @include fonts (16px, 500, 22px, $dirty-white);
+}
+
+.exchange__button-arrow-1 {
+  background-image: url('../img/стрелка-вниз.svg');
+  background-repeat: no-repeat;
+  background-size: 29px;
+  background-position: top 11px center;
+}
+
+.exchange__button-arrow-2 {
+  background-image: url('../img/стрелка-вверх.svg');
+  background-repeat: no-repeat;
+  background-size: 29px;
+  background-position: top 11px center;
+}
+
+.exchange__button-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}

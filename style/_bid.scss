@@ -1,0 +1,107 @@
+.bid__block {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.bid__h2 {
+  margin-bottom: 12px;
+  @include fonts (20px, 600, 26px, $dirty-white);
+}
+
+.bid__list {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.bid__item {
+  position: relative;
+  padding-bottom: 12px;
+  padding-top: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: $dark-color;
+  border-radius: 10px;
+}
+
+.bid__item-image-1 {
+  background-image: url('../img/T.svg');
+  background-repeat: no-repeat;
+  background-size: 54px;
+  background-position: top 9px right 16px;
+}
+
+.bid__item-image-2 {
+  background-image: url('../img/T-2.svg');
+  background-repeat: no-repeat;
+  background-size: 54px;
+  background-position: top 9px right 16px;
+}
+
+.bid__item::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: $dirty-grey;
+  top: 79px;
+  height: 1px;
+
+}
+
+.bid__text {
+  display: flex;
+  justify-content: space-between;
+  width: 64%;
+  margin-bottom: 5px;
+  @include fonts (16px, 500, 22px, $dirty-white);
+}
+
+.bid__span-text {
+  border-radius: 5px;
+  padding: 1px 4px;
+  border: 1px solid $dirty-white;
+  @include fonts (12px, 400, 18px, $dirty-white);
+}
+
+.bid__span-ellips {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../img/точка.svg');
+}
+
+.bid__span-price {
+  margin-bottom: 31px;
+  padding-right: 12px;
+  background-image: url('../img/₽.svg');
+  background-repeat: no-repeat;
+  background-position: top 2px right 4px;
+  background-size: 10px;
+}
+
+.bid__text-price {
+  margin-bottom: 32px;
+  @include fonts (14px, 400, 20px, $grey);
+}
+
+.bid__span-text-number {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  @include fonts (14px, 400, 20px, $grey);
+}
+
+.bid__span-number {
+  padding-right: 25px;
+  @include fonts (14px, 400, 20px, $dirty-white);
+  background-image: url('../img/копировка.svg');
+  background-repeat: no-repeat;
+  background-position: top 1px right 2px;
+}
+
+.bid__span-date {
+  @include fonts (14px, 400, 20px, $dirty-white);
+}

@@ -1,0 +1,22 @@
+.footer__block {
+  padding-top: 24px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 22px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__item {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+}
+
+.footer__text-item {
+  @include fonts (17.4px, 400, 20px, $grey);
+}

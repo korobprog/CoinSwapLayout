@@ -1,0 +1,58 @@
+.information__block {
+  padding-top: 11px;
+}
+
+.information__h2 {
+  margin-bottom: 12px;
+  @include fonts (20px, 600, 26px, $dirty-white);
+}
+
+.information__list {
+  border-radius: 12px;
+  background-color: $dark-color;
+}
+
+.information__item {
+  padding: 15px 13% 17px 13%;
+  @include fonts (16px, 400, 22px, $dirty-white);
+}
+
+.information__item:not(:last-child) {
+  border-bottom: 1px solid $dirty-grey;
+}
+
+.information__item-adress {
+  background-image: url(../img/📍.png);
+  background-repeat: no-repeat;
+  background-position: left 16px top 15px;
+}
+
+.information__item-call {
+   background-image: url(../img/👨🏻_💻.png);
+  background-repeat: no-repeat;
+  background-position: left 16px top 15px;
+}
+
+.information__item-politic {
+   background-image: url(../img/🔍.png);
+  background-repeat: no-repeat;
+  background-position: left 16px top 15px;
+}
+
+.information__item-execution {
+   background-image: url(../img/💼.png);
+  background-repeat: no-repeat;
+  background-position: left 16px top 15px;
+}
+
+.information__item-risk {
+   background-image: url(../img/📄.png);
+  background-repeat: no-repeat;
+  background-position: left 16px top 15px;
+}
+
+.information__item-confidentiality {
+   background-image: url(../img/🔐.png);
+  background-repeat: no-repeat;
+  background-position: left 16px top 15px;
+}
