@@ -1,0 +1,41 @@
+@use 'service_folder/reset';
+@use 'service_folder/normalize';
+@use 'service_folder/fonts';
+@import 'service_folder/mixins';
+
+$black-color: #0D0D0F;
+$translucent-white: #FFFFFF1A;
+$dirty-white: #E5E5F3;
+$grey: #71717B;
+$dark-color: #19191C;
+$dirty-grey: #65658B40;
+$blue: #4F60FB;
+$green: #30AE9B;
+$red: #FB4F74;
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 393px;
+}
+
+@import 'header';
+@import 'application_type';
+@import 'footer';
+
+body {
+  min-width: 320px;
+  background-color: $black-color;
+  font-family: "SF Pro Display", serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex-grow: 1;
+}

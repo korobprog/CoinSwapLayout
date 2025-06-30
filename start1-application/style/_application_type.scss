@@ -1,0 +1,191 @@
+.application_type__select-block-general {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+.application_type__select-block {
+  width: 49%;
+}
+
+.application_type__h3 {
+  margin-bottom: 15px;
+  @include fonts (20px, 600, 26px, $dirty-white)
+}
+
+.application_type__select {
+  position: relative;
+  padding: 16px;
+  border-radius: 11px;
+  background-color: $dark-color;
+}
+
+.application_type__text {
+  display: flex;
+  justify-content: space-between;
+  @include fonts (16px, 400, 22px, $grey);
+}
+
+.application_type__span {
+  display: inline-block;
+  width: 15px;
+  height: 20px;
+  background-image: url('../img/галочка-селект.svg');
+  background-repeat: no-repeat;
+  background-position: top 7px left 0px;
+}
+
+.application_type__h3-list {
+  margin-bottom: 12px;
+  @include fonts (20px, 600, 26px, $dirty-white);
+}
+
+.bid__item {
+  position: relative;
+  padding-bottom: 12px;
+  padding-top: 16px;
+  padding-left: 15px;
+  padding-right: 75px;
+  background-color: $dark-color;
+  border-radius: 10px;
+}
+
+.bid__text {
+  margin-bottom: 5px;
+  @include fonts (16px, 500, 22px, $dirty-white);
+}
+
+.bid__span-text {
+  border-radius: 5px;
+  padding: 1px 4px;
+  border: 1px solid $grey;
+  @include fonts (12px, 400, 18px, $grey);
+}
+
+.bid__span-ellips {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../img/точка.svg');
+}
+
+.bid__span-price {
+  margin-bottom: 31px;
+  padding-right: 12px;
+  background-image: url('../img/₽.svg');
+  background-repeat: no-repeat;
+  background-position: top 2px right 4px;
+  background-size: 10px;
+}
+
+.bid__text-price {
+  margin-bottom: 3px;
+  @include fonts (14px, 400, 20px, $grey);
+}
+
+
+.bid__item-image-1 {
+  background-image: url('../img/T.svg');
+  background-repeat: no-repeat;
+  background-size: 54px;
+  background-position: top 9px right 16px;
+}
+
+.bid__item-image-2 {
+  background-image: url('../img/T-2.svg');
+  background-repeat: no-repeat;
+  background-size: 54px;
+  background-position: top 9px right 16px;
+}
+
+.bid__item-image-3 {
+  background-image: url('../img/одобрено.svg');
+  background-repeat: no-repeat;
+  background-size: 54px;
+  background-position: top 9px right 16px;
+}
+
+.bid__item-image-4 {
+  background-image: url('../img/отмена.svg');
+  background-repeat: no-repeat;
+  background-size: 54px;
+  background-position: top 9px right 16px;
+}
+
+.application_type__span-text-grey {
+  color: $grey;
+}
+
+.application_type__span-text-green {
+  color: $green;
+}
+
+.application_type__span-text-red {
+  color: $red;
+}
+
+.application_type__list-applications {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.application_type__usdt {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.application_type__list-general {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+
+.application_type__select-list {
+  position: absolute;
+  border-radius: 13px;
+  background-color: $dark-color;
+   z-index: 3;
+}
+
+.application_type__select-item {
+  display: flex;
+  padding: 15px;
+  gap: 8px;
+  align-items: center;
+  @include fonts (16px, 400, 22px, $grey);
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}
+
+.application_type__select-item:not(:last-child) {
+  border-bottom: 1px solid $dirty-grey;
+}
+
+.application_type__slect-svg {
+  stroke: $grey;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}
+
+.application_type__slect-svg-fill {
+  fill: transparent;
+   transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}
+
+.application_type__select-item:active .application_type__slect-svg-fill {
+  fill: $blue;
+}
+
+.application_type__select-item:active .application_type__slect-svg {
+  stroke: $blue;
+}
+
+.application_type__select-item:active.application_type__select-item {
+  color: #fff;
+}
