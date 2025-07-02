@@ -1,0 +1,84 @@
+.footer__block {
+  padding-top: 24px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 22px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+.footer__item::before {
+  position: absolute;
+  content: "";
+  background-image: url("../img/glow.svg");
+  background-repeat: no-repeat;
+  top: 1px;
+  left: -30px;
+  bottom: -30px;
+  right: -30px;
+  background-position: center;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  opacity: 0;
+  background-size: 150px;
+}
+
+.footer__item:active::before {
+  opacity: 1; /* Появляется при нажатии */
+}
+
+.footer__text-item {
+   transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  @include fonts (17.4px, 400, 20px, $grey);
+}
+
+.footer__item:active .footer__text-item {
+  color: $blue;
+}
+
+.footer__svg-logo {
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  fill: $grey;
+}
+
+.footer__item:active .footer__svg-logo {
+  fill: $blue;
+}
+
+.footer__svg-history {
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  stroke: $grey;
+}
+
+.footer__item:active .footer__svg-history {
+  stroke: $blue;
+}
+
+.footer__svg-profil {
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  fill: $grey;
+}
+
+.footer__item:active .footer__svg-profil {
+  fill: $blue;
+}
+
+

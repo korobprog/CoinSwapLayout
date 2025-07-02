@@ -4,5 +4,6 @@
 
 - [Главная страница](https://magenta-creponne-438081.netlify.app/)
 - [Страница продажи форма](https://magenta-creponne-438081.netlify.app/start1-sell/index.html)
-- [Страница заявки](https://magenta-creponne-438081.netlify.app/start1-application)
+- [Страница заявки](https://magenta-creponne-438081.netlify.app/start1-application/index.html)
+- [Купить продать](https://magenta-creponne-438081.netlify.app/start1-sell/index.html)
 - [Пустая страница](https://magenta-creponne-438081.netlify.app/start1-blank-screen/index.html)

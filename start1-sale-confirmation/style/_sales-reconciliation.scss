@@ -1,0 +1,76 @@
+.sales-reconciliation__image-block {
+  margin-bottom: 27px;
+  padding-top: 123px;
+  background-image: url('../img/T.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top 0px left 47%;
+  background-size: 109px;
+}
+
+.sales-reconciliation-text {
+  margin-bottom: 9px;
+  text-align: center;
+  @include fonts (32px, 700, 38px, $dirty-white);
+}
+
+.sales-reconciliation__text-many {
+  text-align: center;
+  @include fonts (16px, 500, 22px, $grey);
+}
+
+.sales-reconciliation__span-many {
+  padding: 6px 8px;
+  border-radius: 8px;
+  background-color: $dark-color;
+}
+
+.sales-reconciliation__number {
+  @include fonts (14px, 500, 20px, $dirty-white);
+}
+
+.sales-reconciliation__orange-text {
+  margin-bottom: 24px;
+  padding: 16px;
+  border-radius: 13px;
+  background-color: $dirty-orange;
+  @include fonts (14px, 400, 20px, $orange);
+}
+
+.sales-reconciliation__info {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.sales-reconciliation__info-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 15px 16px 15px;
+  background-color: $dark-color;
+  border-radius: 14px;
+}
+
+.sales-reconciliation__info-block-text {
+  @include fonts (16px, 400, 22px, $dirty-white);
+}
+
+.sales-reconciliation__info-block-span {
+  @include fonts (14px, 400, 20px, $grey);
+}
+
+.sales-reconciliation__button {
+  width: 100%;
+  padding: 16px;
+  background-color: $dark-color;
+  border-radius: 14px;
+  @include fonts (16px, 600, 22px, $grey);
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}
+.sales-reconciliation__button:active {
+  background-color: $blue;
+  color: #fff;
+}
