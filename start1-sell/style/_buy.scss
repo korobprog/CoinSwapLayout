@@ -1,0 +1,151 @@
+.buy__h2 {
+  margin-bottom: 10px;
+  @include fonts (24px, 700, 30px, $dirty-white);
+}
+
+.buy__text {
+  margin-bottom: 24px;
+  @include fonts (16px, 400, 22px, $grey);
+}
+
+.buy__form-block {
+  margin-bottom: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.buy__label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  @include fonts (18px, 500, 24px, $dirty-white);
+}
+
+.buy__span {
+  @include fonts (14px, 500, 22px, $grey);
+}
+
+.buy__input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border-color: transparent;
+  background-color: $dark-color;
+}
+
+.buy__input::placeholder {
+  @include fonts (16px, 400, 22px, $grey);
+}
+
+.buy__error-text {
+  position: absolute;
+  @include fonts (14px, 400, 20px, $red);
+  padding-left: 30px;
+  background-image: url('../img/attention.svg');
+  background-repeat: no-repeat;
+  background-position: top 0 left 0;
+  bottom: -29px;
+  left: 0;
+}
+
+.buy__bio-form-block {
+  margin-bottom: 26px;
+}
+
+.buy__bio-text {
+  margin-bottom: 8px;
+  @include fonts (18px, 500, 24px, $dirty-white);
+}
+
+.buy__bio-label {
+  position: relative;
+}
+
+.buy__bio-span {
+  position: absolute;
+  color: transparent;
+}
+
+.buy__bio-input-top {
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid $dirty-grey;
+  padding-bottom: 17px;
+}
+
+.buy__bio-input-center {
+  border-radius: 0;
+  padding-bottom: 17px;
+}
+
+.buy__bio-input-bottom {
+  border-radius: 0 0 10px 10px;
+  border-top: 1px solid $dirty-grey;
+  padding-bottom: 17px;
+}
+
+.buy__custom-checkbox {
+  margin-bottom: 11px;
+  gap: 12px;
+  padding-left: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  padding: 16px;
+  background-color: $dark-color;
+  border-radius: 13px;
+}
+
+.buy__custom-checkbox-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+
+   &:checked ~ .buy__custom-checkbox-checkmark {
+    background-color: $blue;
+    border-color: transparent;
+
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url('../img/Combined-Shape.svg');
+      background-repeat: no-repeat;
+      top:4px;
+      left: 2px;
+      bottom: 0;
+      right: 0;
+    }
+
+  }
+}
+
+.buy__custom-checkbox-checkmark {
+  position: relative;
+  height: 24px;
+  min-width: 24px;
+  border: 2px solid $grey;
+  border-radius: 6px;
+}
+
+.buy__checkbox-text {
+  @include fonts (16px, 400, 22px, $grey);
+}
+
+.buy__checkbox-link {
+  color: $blue;
+}
+
+.buy__form-button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 22px 0;
+  border-radius: 13px;
+  background-color: $dark-color;
+  @include fonts (16px, 600, 22px, $grey);
+}
