@@ -1,0 +1,41 @@
+.header__block {
+  padding-top: 60px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__button {
+  border-radius: 31.85px;
+  background-color: $translucent-white;
+  @include fonts (14px, 500, 21px, #fff)
+}
+
+.header__button-left {
+  padding: 4px;
+  padding-left: 30px;
+  padding-right: 12px;
+  background-image: url('../img/крестик.svg');
+  background-repeat: no-repeat;
+  background-position: top 5px left 6px;
+  background-size: 20px;
+}
+
+.header__button-right {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  padding-right: 7px;
+  padding-left: 46px;
+  height: 29px;
+  padding-bottom: 17.4px;
+    background-image: url('../img/галочка-вниз.svg');
+  background-repeat: no-repeat;
+  background-position: top 5px left 6px;
+  background-size: 20px;
+}
+
+.header__span {
+  font-size: 24px;
+}
+

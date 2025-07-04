@@ -1,0 +1,40 @@
+.profile__h2 {
+  margin-bottom: 24px;
+  @include fonts (24px, 700, 125%, $dirty-white);
+}
+
+.profile__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+.profile__list-item {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 14px;
+  background-color: $dark-color;
+  @include fonts (14px, 400, 143%, $grey);
+  gap: 10px;
+}
+.profile__non-verific {
+  background-image: url('../img/non-verific.svg');
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-left: 29px;
+}
+
+.profile__verific {
+  background-image: url('../img/verific.svg');
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-left: 29px;
+}
+
+.profile__span {
+  @include fonts (16px, 400, 137%, $dirty-white);
+}
+

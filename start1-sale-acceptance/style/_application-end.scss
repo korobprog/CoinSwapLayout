@@ -1,0 +1,97 @@
+.application-end__image-block {
+  padding-top: 157px;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 23px;
+  background-image: url('../img/top-end.png');
+  background-repeat: no-repeat;
+  background-position: top 18px left 116px;
+}
+
+.application-end-text {
+  margin-bottom: 9px;
+  text-align: center;
+  @include fonts (20px, 600, 130%, $dirty-white);
+}
+
+.application-end-text-instruction {
+  text-align: center;
+  @include fonts (16px, 400, 137%, $grey);
+}
+
+.application-end__list {
+  margin-bottom: 25px;
+  border-radius: 14px;
+  background-color: $dark-color;
+}
+
+.application-end__list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 17px  15px 15px;
+  @include fonts (16px, 400, 137%, $grey);
+}
+
+.application-end__list-item-center {
+  border-bottom: 1px solid $dirty-grey;
+  border-top: 1px solid $dirty-grey;
+}
+
+.application-end__span {
+  @include fonts (16px, 400, 137%, $dirty-white);
+}
+
+.application-end__span-image {
+  @include fonts (16px, 400, 137%, $grey);
+}
+
+.application-end__list-info {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.application-end__list-info-item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 7px;
+  border-radius: 14px;
+  background-color: $dark-color;
+  @include fonts (14px, 400, 143%, $grey);
+}
+
+.application-end__span-image-copy {
+  background-image: url('../img/копировка.svg');
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  background-position: top 0 right 0;
+}
+
+.application-end__list-item--border {
+  border-bottom: 1px solid $dirty-grey;
+}
+
+.application-end__orange-text {
+  margin-bottom: 12px;
+  padding: 16px;
+  border-radius: 13px;
+  background-color: $dirty-orange;
+  @include fonts (14px, 400, 20px, $orange);
+}
+
+.application-end__button {
+    width: 100%;
+    padding: 16px;
+    background-color: $dark-color;
+    border-radius: 14px;
+    @include fonts (16px, 600, 22px, $grey);
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+.application-end__button:active {
+  background-color: $blue;
+  color: #fff;
+}

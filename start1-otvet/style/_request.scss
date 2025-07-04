@@ -1,0 +1,99 @@
+.request__image-block {
+  padding-top: 122px;
+  background-image: url('../img/T.svg');
+  background-repeat: no-repeat;
+  background-position: top 0px left 47%;
+  background-size: 109px;
+}
+
+.request__text {
+  margin-bottom: 9px;
+  text-align: center;
+  @include fonts (32px, 700, 38px, $dirty-white);
+}
+
+.request__text-mini {
+  margin-bottom: 23px;
+  text-align: center;
+  @include fonts (16px, 500, 22px, $grey);
+}
+
+.request__color {
+  margin-bottom: 23px;
+  border-radius: 14px;
+  padding: 16px;
+  background-repeat: no-repeat;
+  background-position: top 13px right 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  background-size: 25px;
+}
+
+.request__color-orange {
+  background-image: url('../img/waiting.svg');
+  background-color: $dirty-orange;
+  color: $orange;
+}
+
+.request__color-green {
+  background-image: url('../img/request-green.svg');
+  color: $green;
+  background-color: $dirty-green;
+}
+
+.request__color-red {
+  background-image: url('../img/request-red.svg');
+  color: $red;
+  background-color: $dirty-red;
+}
+
+
+.request__list {
+  margin-bottom: 27px;
+  border-radius: 14px;
+  background-color: $dark-color;
+}
+
+.request__list-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 17px  15px 15px;
+  @include fonts (16px, 400, 137%, $grey);
+}
+
+.request__list-item:not(:last-child) {
+  border-bottom: 1px solid $dirty-grey;
+}
+
+.request__span {
+  @include fonts (16px, 400, 137%, $dirty-white);
+}
+
+.request__span-image {
+  @include fonts (16px, 400, 137%, $grey);
+}
+
+.application-end__span-image-copy {
+    background-image: url('../img/копировка.svg');
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    background-position: top 0 right 0;
+}
+
+.application-end__span-image-world {
+  background-image: url('../img/web.svg');
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    background-position: top 0 right 0;
+    background-size: 19px;
+}
+
+.request__text-item {
+   display: flex;
+    flex-direction: column;
+   border-radius: 14px;
+  background-color: $dark-color;
+  padding: 16px 17px  15px 15px;
+  @include fonts (16px, 400, 137%, $grey);
+}
