@@ -8,4 +8,5 @@
 - [Купить продать](https://magenta-creponne-438081.netlify.app/start1-sell/index.html)
 - [Пустая с](https://magenta-creponne-438081.netlify.app/start1-blank-screen/index.html)
 - [Профиль](https://magenta-creponne-438081.netlify.app/start1-profile/index.html)
-- [Ответ](https://magenta-creponne-438081.netlify.app/start1-otvet/index.html)
+- [Ответ пользователю с тремя статусами ](https://magenta-creponne-438081.netlify.app/start1-answer/index.html)
+
